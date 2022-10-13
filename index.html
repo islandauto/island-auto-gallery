@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Island Auto Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+    <link rel="stylesheet" type="text/css"  href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css"  href="css/jnoty.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/yellow.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <style>
+        .cursive {
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .color-black {
+            color: black;
+            font-weight: bolder;
+        }
+
+        .service-section {
+            background-color: antiquewhite;
+        }
+    </style>
+<div class="page_loader"></div>
+
+<!-- Top header start -->
+<header class="top-header bg-active" id="top-header-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-7">
+                <div class="list-inline">
+                    <a href="tel:1-516-871-9000"><i class="fa fa-phone"></i>Need Support? 516-871-9000</a>
+                    <a href="tel:info@themevessel.com"><i class="fa fa-envelope"></i>islandautogallery@gmail.com</a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6 col-md-4 col-sm-5">
+                <ul class="top-social-media pull-right">
+                    <li>
+                        <a href="login.html" class="sign-in"><i class="fa fa-sign-in"></i> Login</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" class="sign-in"><i class="fa fa-user"></i> Register</a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+</header>
+<!-- Top header end -->
+
+<!-- Main header start -->
+<header class="main-header sticky-header sh-2">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand company-logo-2 cursive" href="index.html" style="font-size: 40px;">
+                Island Auto Gallery
+            </a>
+            <button class="navbar-toggler" type="button" id="drawer">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100 justify-content-end" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://www.facebook.com/profile.php?id=100085421476360" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_blank">
+                            Car Listing
+                        </a>
+                        <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">List Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-list-rightside.html">List Right Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-list-leftsidebar.html">List Left Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-list-fullWidth.html">List FullWidth</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Grid Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-grid-rightside.html">Grid Right Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-grid-leftside.html">Grid Left Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-grid-fullWidth.html">Grid FullWidth</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Car Details</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-details.html">Car Details 1</a></li>
+                                    <li><a class="dropdown-item" href="car-details-2.html">Car Details 2</a></li>
+                                    <li><a class="dropdown-item" href="car-details-3.html">Car Details 3</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sidenav start -->
+<nav id="sidebar" class="nav-sidebar">
+    <!-- Close btn-->
+    <div id="dismiss">
+        <i class="fa fa-close"></i>
+    </div>
+    <div class="sidebar-inner">
+        <div class="sidebar-logo">
+            <a href="index.html">
+                <img src="img/logos/black-logo.png" alt="sidebarlogo">
+            </a>
+        </div>
+        <div class="sidebar-navigation">
+            <h3 class="heading">Pages</h3>
+            <ul class="menu-list">
+                <li><a href="#" class="active pt0">Index <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="index.html">Index 01</a></li>
+                        <li><a href="index-2.html">Index 02</a></li>
+                        <li><a href="index-3.html">Index 03</a></li>
+                        <li><a href="index-4.html">Index 04</a></li>
+                        <li><a href="index-5.html">Index 05</a></li>
+                        <li><a href="index-6.html">Index 06</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Car Listing <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li>
+                            <a href="#">List Layout <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a href="car-list-rightside.html">List Right Sidebar</a></li>
+                                <li><a href="car-list-leftsidebar.html">List Left Sidebar</a></li>
+                                <li><a href="car-list-fullWidth.html">List FullWidth</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Grid Layout <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a href="car-grid-rightside.html">Grid Right Sidebar</a></li>
+                                <li><a href="car-grid-leftside.html">Grid Left Sidebar</a></li>
+                                <li><a href="car-grid-fullWidth.html">Grid FullWidth</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Car Details <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a href="car-details.html">Car Details 1</a></li>
+                                <li><a href="car-details-2.html">Car Details 2</a></li>
+                                <li><a href="car-details-3.html">Car Details 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Pages <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li>
+                            <a href="#">Agent <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a href="agent.html">Agent</a></li>
+                                <li><a href="agent-detail.html">Agent Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Services <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a href="services.html">Services 1</a></li>
+                                <li><a href="services-2.html">Services 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="car-comparison.html">Car Compare</a></li>
+                        <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="elements.html">Elements</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="search-brand.html">Car Brands</a></li>
+                        <li><a href="icon.html">Icons</a></li>
+                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                        <li><a href="404.html">Error Page</a></li>
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="signup.html">Register</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="blog-post.html">Blog Post</a></li>
+                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="shop-list.html">Shop List</a></li>
+                        <li><a href="shop-cart.html">Shop Cart</a></li>
+                        <li><a href="shop-checkout.html">Shop Checkout</a></li>
+                        <li><a href="shop-details.html">Shop Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="#full-page-search" class="nav-link h-icon">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="get-in-touch">
+            <h3 class="heading">Get in Touch</h3>
+            <div class="get-in-touch-box d-flex mb-2">
+                <i class="flaticon-phone"></i>
+                <a href="tel:0477-0477-8556-552">0288 2547 874</a>
+            </div>
+            <div class="get-in-touch-box d-flex mb-2">
+                <i class="flaticon-mail"></i>
+                <div class="media-body">
+                    <a href="#">info@themevessel.com</a>
+                </div>
+            </div>
+            <div class="get-in-touch-box d-flex">
+                <i class="flaticon-earth"></i>
+                <div class="media-body">
+                    <a href="#">info@themevessel.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="get-social">
+            <h3 class="heading">Get Social</h3>
+            <a href="#" class="facebook-bg">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="twitter-bg">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" class="google-bg">
+                <i class="fa fa-google"></i>
+            </a>
+            <a href="#" class="linkedin-bg">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+<!-- Sidenav end -->
+
+<!-- Banner start -->
+<div class="banner" id="banner">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner banner-slider-inner">
+            <div class="carousel-item active item-bg">
+                <img class="d-block w-100 h-100" src="img/banner/img-6.png" alt="banner">
+                <div class="carousel-content prl-30 container banner-info-2 bi-2 text-start">
+                    <div class="typing" style="margin-top: -100px;">
+                        <h2>Find your Dream Car</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item item-bg">
+                <img class="d-block w-100 h-100" src="img/banner/img-4.png" alt="banner">
+                <div class="carousel-content prl-30 container banner-info-2 bi-2 text-start">
+                    <div class="typing">
+                        <h2>We Share the Pride in your Ride</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item item-bg">
+                <img class="d-block w-100 h-100" src="img/banner/img-5.png" alt="banner">
+                <div class="carousel-content prl-30 container banner-info-2 bi-2 text-start">
+                    <div class="typing">
+                        <h2>Only the best brands and quality</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- <div style="height: 0px">
+    <img src="img/car/309468586_115932717930777_2588134743674789805_n.jpg"  style="height: 0px"/>
+</div> -->
+<!-- Banner end -->
+
+<!-- Search box 2 start -->
+<!-- <div class="search-box-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inline-search-area">
+                    <div class="row row-3">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <select class="selectpicker search-fields" name="select-brand">
+                                <option>Select Brand</option>
+                                <option>Audi</option>
+                                <option>BMW</option>
+                                <option>Honda</option>
+                                <option>Nissan</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <select class="selectpicker search-fields" name="select-make">
+                                <option>Select Make</option>
+                                <option>BMW</option>
+                                <option>Honda</option>
+                                <option>Lamborghini</option>
+                                <option>Sports Car</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <select class="selectpicker search-fields" name="select-location">
+                                <option>Select Location</option>
+                                <option>United States</option>
+                                <option>United Kingdom</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <select class="selectpicker search-fields" name="select-year">
+                                <option>Select Year</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2021</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <select class="selectpicker search-fields" name="select-type">
+                                <option>Select Type Of Car</option>
+                                <option>New Car</option>
+                                <option>Used Car</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                            <button class="btn white-btn btn-search w-100">
+                                <i class="fa fa-search"></i><strong>Find</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Search box 2 end -->
+<div class="featured-car content-area-21">
+    <div class="container">
+        <!-- Main title -->
+        <div class="section-header d-flex">
+            <h2 data-title="Latest Offers">Cars</h2>
+            <div id="imagesContainer" style="margin-top: 60px; margin-left: auto; margin-right: auto;  text-align: center;">
+
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!-- Featured car start -->
+<div class="featured-car content-area-21">
+    <div class="container">
+        <!-- Main title -->
+        <div class="section-header d-flex">
+            <h2 data-title="Types of car">Brands</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <img class="d-block w-100" src="img/logos/car-1.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-1.png" class="overlap-btn" data-sub-html="<h4>HONDA</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-2.png" class="hidden" data-sub-html="<h4>TOYOTA</h4>">
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-3.png" class="hidden" data-sub-html="<h4>BMW</h4>">
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-4.png" class="hidden" data-sub-html="<h4>CHEVROLET</h4>">
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-5.png" class="hidden" data-sub-html="<h4>HYUNDAI</h4>">
+                                            <img class="hidden" src="img/logos/car-5.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">Honda</a>
+                        </h1>
+                        
+                        <!-- <ul class="facilities-list clearfix">
+                            <li>
+                                <i class="flaticon-fuel"></i> Petrol
+                            </li>
+                            <li>
+                                <i class="flaticon-way"></i> 4,000 km
+                            </li>
+
+                            <li>
+                                <i class="flaticon-gear"></i> Blue
+                            </li>
+                            <li>
+                                <i class="flaticon-calendar-1"></i> 2021
+                            </li>
+                        </ul> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <!-- <div class="tag-2 bg-active">Featured</div> -->
+                            <img class="d-block w-100" src="img/logos/car-2.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-2.png" class="overlap-btn" data-sub-html="<h4>Ferrari Red Car</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-1.png" class="hidden" data-sub-html="<h4>Ferrari Red Car</h4>">
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-3.png" class="hidden" data-sub-html="<h4>Bmw e46 m3 Diski Serie</h4>">
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-4.png" class="hidden" data-sub-html="<h4>Volkswagen Scirocco 2016</h4>">
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-5.png" class="hidden" data-sub-html="<h4>Porsche Cayen Last</h4>">
+                                            <img class="hidden" src="img/logos/car-5.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">Toyota</a>
+                        </h1>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <img class="d-block w-100" src="img/logos/car-3.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-3.png" class="overlap-btn" data-sub-html="<h4>Bmw e46 m3 Diski Serie</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-2.png" class="hidden" data-sub-html="<h4>Ferrari Red Car</h4>">
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-1.png" class="hidden" data-sub-html="<h4>Lamborghini</h4>">
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-4.png" class="hidden" data-sub-html="<h4>Volkswagen Scirocco 2016</h4>">
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-5.png" class="hidden" data-sub-html="<h4>Porsche Cayen Last</h4>">
+                                            <img class="hidden" src="img/logos/car-5.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">BMW</a>
+                        </h1>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <img class="d-block w-100" src="img/logos/car-4.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-4.png" class="overlap-btn" data-sub-html="<h4>Volkswagen Scirocco 2016</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-2.png" class="hidden" data-sub-html="<h4>Ferrari Red Car</h4>">
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-3.png" class="hidden" data-sub-html="<h4>Bmw e46 m3 Diski Serie</h4>">
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-1.png" class="hidden" data-sub-html="<h4>Lamborghini</h4>">
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-5.png" class="hidden" data-sub-html="<h4>Porsche Cayen Last</h4>">
+                                            <img class="hidden" src="img/logos/car-5.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">Chevrolet</a>
+                        </h1>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <img class="d-block w-100" src="img/logos/car-5.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-5.png" class="overlap-btn" data-sub-html="<h4>Porsche Cayen Last</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-5.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-2.png" class="hidden" data-sub-html="<h4>Ferrari Red Car</h4>">
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-3.png" class="hidden" data-sub-html="<h4>Bmw e46 m3 Diski Serie</h4>">
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-4.png" class="hidden" data-sub-html="<h4>Volkswagen Scirocco 2016</h4>">
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-1.png" class="hidden" data-sub-html="<h4>Lamborghini</h4>">
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">Hyundai</a>
+                        </h1>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="car-box-3">
+                    <div class="car-thumbnail">
+                        <a href="car-details.html" class="car-img">
+                            <img class="d-block w-100" src="img/logos/car-6.png" alt="car">
+                        </a>
+                        <div class="carbox-overlap-wrapper">
+                            <div class="overlap-box">
+                                <div class="overlap-btns-area">
+                                    <!-- <a class="overlap-btn" data-bs-toggle="modal" data-bs-target="#carOverviewModal">
+                                        <i class="fa fa-eye-slash"></i>
+                                    </a> -->
+                                    
+                                    <div class="car-magnify-gallery">
+                                        <a href="img/logos/car-6.png" class="overlap-btn" data-sub-html="<h4>FORD</h4>">
+                                            <i class="fa fa-expand"></i>
+                                            <img class="hidden" src="img/logos/car-6.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-2.png" class="hidden" data-sub-html="<h4>TOYOTA</h4>">
+                                            <img class="hidden" src="img/logos/car-2.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-3.png" class="hidden" data-sub-html="<h4>BMW</h4>">
+                                            <img class="hidden" src="img/logos/car-3.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-4.png" class="hidden" data-sub-html="<h4>CHEVROLET</h4>">
+                                            <img class="hidden" src="img/logos/car-4.png" alt="hidden-img">
+                                        </a>
+                                        <a href="img/logos/car-1.png" class="hidden" data-sub-html="<h4>HONDA</h4>">
+                                            <img class="hidden" src="img/logos/car-1.png" alt="hidden-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="car-details.html">Ford</a>
+                        </h1>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured car end -->
+
+<!-- Service section start -->
+<div class="service-section">
+    <div class="container">
+        <!-- Main title -->
+        <div class="section-header d-flex">
+            <h2 data-title="We Are The Best"> Our Facilties</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-info-2">
+                    <div class="icon">
+                        <i class="flaticon-shield"></i>
+                    </div>
+                    <h3><a href="services.html">Exceptional Quality</a></h3>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-info-2">
+                    <div class="icon">
+                        <i class="flaticon-deal"></i>
+                    </div>
+                    <h3><a href="services.html">Trusted Agents</a></h3>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-info-2">
+                    <div class="icon">
+                        <i class="flaticon-money"></i>
+                    </div>
+                    <h3><a href="">Unbeatable Prices</a></h3>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="service-info-2">
+                    <div class="icon">
+                        <i class="flaticon-support-2"></i>
+                    </div>
+                    <h3><a href="">Extended Support</a></h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service section end -->
+
+<!-- Latest offers section strat -->
+
+<!-- Latest offers section end -->
+
+<!-- Counters strat -->
+
+<!-- Counters end -->
+
+<!-- Testimonial 3 start -->
+<div class="testimonial-3 content-area-21">
+    <div class="container">
+        <!-- Main title -->
+        <div class="section-header sh-two d-flex">
+            <h2 data-title="What Clients Say"> Our Testimonial</h2>
+        </div>
+        <div class="featured-slider row slide-box-btn slider" data-slick='{"slidesToShow": 2, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 1}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+            <div class="slide slide-box">
+                <div class="testimonial-item-new">
+                    <div class="author-img fix">
+                    </div>
+                    <div class="author-content">
+                        <h5 class="left-line pl-40">Bill Johson</h5>
+                    </div>
+                    <p>Very good service and good prices.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide-box">
+                <div class="testimonial-item-new">
+                    <div class="author-img fix">
+                    </div>
+                    <div class="author-content">
+                        <h5 class="left-line pl-40">Michelle Nelson</h5>
+                    </div>
+                    <p>Buying my new Toyota RAV4 from Island Auto was a breeze. I'm pleased with the service.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide-box">
+                <div class="testimonial-item-new">
+                    <div class="author-img fix">
+                        
+                    </div>
+                    <div class="author-content">
+                        <h5 class="left-line pl-40">Samuel Cormier></h5>
+                    </div>
+                    <p>Good salesmen, fair prices.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial 3 end -->
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="footer-inner" style="background-color: rgba(232, 228, 228, 0.588);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <img src="./img/logo.jpg" style="width: 200px; height: auto" />
+
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <h4 style="color: black !important">
+                            Contact Info
+                        </h4>
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                        <ul class="contact-info color-black">
+                            <li style="color: black !important">
+                                <i class="flaticon-pin text-white"></i>Address: 691 Burnside Ave, Lawrence NY 11559
+                            </li>
+                            <li>
+                                <i class="flaticon-mail text-white"></i><a href="mailto:islandautogallery@gmail.com" style="color: black !important">islandautogallery@gmail.com</a>
+                            </li>
+                            <li style="color: black !important">
+                                <i class="flaticon-phone text-white"></i>516-871-9000
+                            </li>
+                            <li style="color: black !important">
+                                <i class="flaticon-phone text-white"></i>516-334-1400
+                            </li>
+                            <li style="color: black !important">
+                                <i class="flaticon-fax text-white"></i>516-390-06444
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-item">
+                        <div class="social-media">
+                            <h4 style="color: black !important;">
+                                Follow Us
+                            </h4>
+                            <div class="social-list">
+                                <div class="icon facebook">
+                                    <span>
+                                        <a href="https://www.facebook.com/profile.php?id=100085421476360" target="_blank">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="icon instagram">               
+                                    <a href="https://www.instagram.com/islandautogallery/" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="social-media clearfix">
+                        <div class="social-list">
+                            <div class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fa fa-facebook"></i></span>
+                            </div>
+                            <div class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fa fa-instagram"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</footer>
+<!-- Footer end -->
+
+<!-- Full Page Search -->
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="index.html#" class="full-page-search-inner">
+        <input type="search" value="" placeholder="type keyword(s) here" />
+        <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+</div>
+
+<!-- Car Overview Modal -->
+<div class="car-model-2">
+    <div class="modal fade" id="carOverviewModal" tabindex="-1" role="dialog" aria-labelledby="carOverviewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title" id="carOverviewModalLabel">
+                        <h4>Find Your Dream Car</h4>
+                        <h5><i class="flaticon-pin"></i> 123 Kathal St. Tampa City,</h5>
+                    </div>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-6 modal-left">
+                            <div class="item active">
+                                <img src="img/logos-11.png" alt="best-car" class="img-fluid">
+                                <div class="sobuz">
+                                    <div class="ratings-2">
+                                        <span class="ratings-box">4.5/5</span>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        ( 7 Reviews )
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 modal-right">
+                            <div class="modal-right-content">
+                                <section>
+                                    <h3>Features</h3>
+                                    <div class="features">
+                                        <ul class="bullets">
+                                            <li>Cruise Control</li>
+                                            <li>Airbags</li>
+                                            <li>Air Conditioning</li>
+                                            <li>Alarm System</li>
+                                            <li>Audio Interface</li>
+                                            <li>CDR Audio</li>
+                                            <li>Seat Heating</li>
+                                            <li>ParkAssist</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h3>Overview</h3>
+                                    <ul class="bullets">
+                                        <li>Model</li>
+                                        <li>Year</li>
+                                        <li>Condition</li>
+                                        <li>Price</li>
+                                        <li>Audi</li>
+                                        <li>2020</li>
+                                        <li>Brand New</li>
+                                        <li>$178,000</li>
+                                    </ul>
+                                </section>
+                                <div class="description">
+                                    <h3>Description</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <a href="car-details.html" class="btn btn-md btn-round btn-theme">Show Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/jquery.mousewheel.min.js"></script>
+<script  src="js/lightgallery-all.js"></script>
+<script  src="js/jnoty.js"></script>
+<script  src="js/sidebar.js"></script>
+<script  src="js/app.js"></script>
+<script  src="js/custom.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
+
+
+
