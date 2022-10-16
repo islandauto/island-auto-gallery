@@ -17,7 +17,7 @@ $(document).ready(function () {
                             console.log(tree);
                             for (let i = 0; i < tree.length; i++) {
                                 const { path } = tree[i];
-                                $('#imagesContainer').append( `<img src="img/car/${path}" style="margin-bottom: 10px;" />`);
+                                $('#imagesContainer').prepend( `<img src="img/car/${path}" style="margin-bottom: 10px;" />`);
                             }
                         }
                     });
